@@ -1,0 +1,29 @@
+{
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "88"
+    ],
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "ms-python.python",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true 
+        },
+        "editor.rulers": [88],
+        "editor.tabSize": 4
+    },
+    
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+        "--max-line-length=88"
+    ],
+
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    
+
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true
+}
